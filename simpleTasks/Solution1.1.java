@@ -6,22 +6,23 @@ public class Solution1.1 {
 
 
         System.out.println("================================");
-          while(3-- > 0) {
 
-            String [] input = scanner.nextLine().split("\\s+");
-            String language = input[0];
-            int points = Integer.parseInt(input[1]);
+          while (3-- > 0) {
 
-            int requiredDistance =  Math.abs(15 - language.length());
+             String [] input = scanner.nextLine().split("\\s+");
+             String language = input[0];
+             int points = Integer.parseInt(input[1]);
 
-            String finalString = String.format("%s%s%03d",
-                    language,
-                    printSpaces(requiredDistance),
-                    points);
+             int requiredDistance =  Math.abs(15 - language.length());
 
+             String finalString = String.format("%s%s%03d",
+                                                 language,
+                                                  printSpaces(requiredDistance),
+                                                                         points);
             System.out.println(finalString);
 
         }
+
         System.out.println("================================");
 
     }
