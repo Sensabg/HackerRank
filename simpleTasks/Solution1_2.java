@@ -2,7 +2,7 @@ package PersonalTasks;
 
 import java.util.Scanner;
 
-public class Solution1.2 {
+public class Solution1_2 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
