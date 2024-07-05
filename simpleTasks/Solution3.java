@@ -1,5 +1,3 @@
-package PersonalTasks;
-
 import java.util.*;
 import java.io.*;
 
