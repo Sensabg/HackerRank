@@ -7,7 +7,7 @@ public class Solution3{
 
         int amountLinestoRead = Integer.parseInt(scanner.nextLine());
 
-        while(amountLinestoRead-- > 0){
+        while (amountLinestoRead-- > 0){
             int [] input = readArray(scanner);
             int a = input[0];
             int b = input[1];
@@ -21,8 +21,8 @@ public class Solution3{
     }
     public static int[] readArray(Scanner scanner) {
         return Arrays.stream(scanner.nextLine().split("\\s+"))
-                .mapToInt(Integer::parseInt)
-                .toArray();
+                     .mapToInt(Integer::parseInt)
+                     .toArray();
     }
     public static int[] generateSeries(int a, int b, int n) {
         int[] series = new int[n];
